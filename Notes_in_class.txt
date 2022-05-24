@@ -1,0 +1,35 @@
+Intro to git I (5/24/22 9am)
+The benefit of version control!
+ - You can see who did what change when
+ - You can add notes to mark why changes were made
+ - You can pick which version you need
+ - You don't have to save the same file multiple times
+Git allows version control locally, and GitHub is a collaborative
+online version with additional features.
+
+git config --global user.<___> "<___>"
+
+*Turning a file/folder into a git repository for version control, etc.
+ - cd into the folder (directory)
+ - run command " git init "
+ - can run " git status " in folder
+
+*Adding files to git repository (add & commit)
+ - (All of this done while cd in the folder/repository)
+ - " git add <filename>
+ - " git status " should display that you have things staged to commit
+ - " git commit -m "<add note on commit>" "
+ - " git log " displays the log of the commits done
+
+*Editting files (add & commit)
+ - After editing file, " git status " will show uncommited changes
+ - You have to " git add " for any staging, multiple files can just 
+	be listed with a space between
+
+*Extrainious Bash code, etc.
+ - command " ls --help "
+ - Alternate file editor * nano *
+ - Showing .csv header in bash, run " cat <___>.csv "
+ - Alternative to shorten log display, run the command
+	" git log --oneline "
+
