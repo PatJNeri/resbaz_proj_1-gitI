@@ -25,9 +25,19 @@ git config --global user.<___> "<___>"
  - After editing file, " git status " will show uncommited changes
  - You have to " git add " for any staging, multiple files can just 
 	be listed with a space between
+ - 
 
+*Ignoring files in commit things
+ - create a .gitignore file that git will ignore
+ - make sure to add/commit the file so it takes effect
+ - " git status --ignored " shows which files are ignored
+	
 *Extrainious Bash code, etc.
  - command " ls --help "
+ - " git diff HEAD~2 <filename>" in the repo displays the differences
+	between now and 2 commits ago
+	- Can be specific by not doing the HEAD~ and instead using
+		the specific hash and the file name
  - Alternate file editor * nano *
  - Showing .csv header in bash, run " cat <___>.csv "
  - Alternative to shorten log display, run the command
